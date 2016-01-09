@@ -1,0 +1,233 @@
+[p LITE_MODE AUTOSTATIC PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F873A ]
+[d frameptr 6 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v1.35\sources\common\aldiv.c
+[v ___aldiv __aldiv `(l  1 e 4 0 ]
+"5 C:\Program Files (x86)\Microchip\xc8\v1.35\sources\common\almod.c
+[v ___almod __almod `(l  1 e 4 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v1.35\sources\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+"86 C:\Program Files (x86)\Microchip\xc8\v1.35\sources\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+"4 C:\Program Files (x86)\Microchip\xc8\v1.35\sources\common\ftge.c
+[v ___ftge __ftge `(b  1 e 0 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v1.35\sources\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 3 0 ]
+"15 C:\Program Files (x86)\Microchip\xc8\v1.35\sources\common\ftneg.c
+[v ___ftneg __ftneg `(f  1 e 3 0 ]
+"44 C:\Program Files (x86)\Microchip\xc8\v1.35\sources\common\fttol.c
+[v ___fttol __fttol `(l  1 e 4 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v1.35\sources\common\lldiv.c
+[v ___lldiv __lldiv `(ul  1 e 4 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v1.35\sources\common\llmod.c
+[v ___llmod __llmod `(ul  1 e 4 0 ]
+"35 C:\Program Files (x86)\Microchip\xc8\v1.35\sources\common\lltoft.c
+[v ___lltoft __lltoft `(f  1 e 3 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v1.35\sources\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+"15 C:\Program Files (x86)\Microchip\xc8\v1.35\sources\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v1.35\sources\pic\eeprom.c
+[v _eecpymem eecpymem `(v  1 e 0 0 ]
+"24
+[v _memcpyee memcpyee `(v  1 e 0 0 ]
+"107 D:\PROJECTS\VEDA\PIC Practice\PIC16F873A\hd44780.c
+[v _lcd_10us_delay lcd_10us_delay `(v  1 s 0 lcd_10us_delay ]
+"119
+[v _lcd_strobe lcd_strobe `(v  1 s 0 lcd_strobe ]
+"127
+[v _lcd_high lcd_high `(v  1 s 0 lcd_high ]
+"136
+[v _lcd_low lcd_low `(v  1 s 0 lcd_low ]
+"145
+[v _lcd_write lcd_write `(v  1 s 0 lcd_write ]
+"166
+[v _lcd_config lcd_config `(v  1 s 0 lcd_config ]
+"196
+[v _lcd_clrscr lcd_clrscr `(v  1 e 0 0 ]
+"215
+[v _lcd_return lcd_return `(v  1 e 0 0 ]
+"260
+[v _cursor_shift cursor_shift `(v  1 e 0 0 ]
+"284
+[v _lcd_goto lcd_goto `(v  1 e 0 0 ]
+"306
+[v _lcd_setmode lcd_setmode `(v  1 e 0 0 ]
+"314
+[v _lcd_putc lcd_putc `(v  1 e 0 0 ]
+"327
+[v _lcd_puts lcd_puts `(v  1 e 0 0 ]
+"362
+[v _lcd_loadchar lcd_loadchar `(v  1 e 0 0 ]
+"400
+[v _lcd_pow10 lcd_pow10 `(ul  1 s 4 lcd_pow10 ]
+"414
+[v _lcd_itos lcd_itos `(v  1 e 0 0 ]
+"460
+[v _lcd_ntos lcd_ntos `(v  1 e 0 0 ]
+"478
+[v _lcd_initbar lcd_initbar `(v  1 s 0 lcd_initbar ]
+"574
+[v _lcd_clrbar lcd_clrbar `(v  1 e 0 0 ]
+"600
+[v _lcd_init lcd_init `(v  1 e 0 0 ]
+"34 D:\PROJECTS\VEDA\PIC Practice\PIC16F873A\main.c
+[v _gpio_init gpio_init `(v  1 e 0 0 ]
+"40
+[v _startup startup `(v  1 e 0 0 ]
+"50
+[v _main main `(v  1 e 0 0 ]
+"160 C:\Program Files (x86)\Microchip\xc8\v1.35\include\pic16f873a.h
+[v _PORTA PORTA `VEuc  1 e 1 @5 ]
+"1190
+[v _TRISA TRISA `VEuc  1 e 1 @133 ]
+"1954
+[v _ADCON1 ADCON1 `VEuc  1 e 1 @159 ]
+"61 D:\PROJECTS\VEDA\PIC Practice\PIC16F873A\hd44780.c
+[v _progress_bar progress_bar `DCC[6]uc  1 s 6 progress_bar ]
+"62
+[v _current_bar_pixel current_bar_pixel `uc  1 s 1 current_bar_pixel ]
+"63
+[v _current_cell_load current_cell_load `uc  1 s 1 current_cell_load ]
+"50 D:\PROJECTS\VEDA\PIC Practice\PIC16F873A\main.c
+[v _main main `(v  1 e 0 0 ]
+{
+"56
+} 0
+"40
+[v _startup startup `(v  1 e 0 0 ]
+{
+"48
+} 0
+"327 D:\PROJECTS\VEDA\PIC Practice\PIC16F873A\hd44780.c
+[v _lcd_puts lcd_puts `(v  1 e 0 0 ]
+{
+[v lcd_puts@str str `*.24DCCuc  1 a 1 wreg ]
+"343
+[v lcd_puts@i i `uc  1 a 1 14 ]
+"327
+[v lcd_puts@str str `*.24DCCuc  1 a 1 wreg ]
+[v lcd_puts@str str `*.24DCCuc  1 a 1 15 ]
+"359
+} 0
+"260
+[v _cursor_shift cursor_shift `(v  1 e 0 0 ]
+{
+[v cursor_shift@direction direction `uc  1 a 1 wreg ]
+[v cursor_shift@direction direction `uc  1 a 1 wreg ]
+"263
+[v cursor_shift@direction direction `uc  1 a 1 11 ]
+"281
+} 0
+"600
+[v _lcd_init lcd_init `(v  1 e 0 0 ]
+{
+"613
+} 0
+"215
+[v _lcd_return lcd_return `(v  1 e 0 0 ]
+{
+"227
+} 0
+"478
+[v _lcd_initbar lcd_initbar `(v  1 s 0 lcd_initbar ]
+{
+"480
+[v lcd_initbar@i i `uc  1 a 1 18 ]
+[v lcd_initbar@j j `uc  1 a 1 17 ]
+"501
+} 0
+"574
+[v _lcd_clrbar lcd_clrbar `(v  1 e 0 0 ]
+{
+"576
+[v lcd_clrbar@i i `uc  1 a 1 14 ]
+"595
+} 0
+"306
+[v _lcd_setmode lcd_setmode `(v  1 e 0 0 ]
+{
+[v lcd_setmode@param param `uc  1 a 1 wreg ]
+[v lcd_setmode@param param `uc  1 a 1 wreg ]
+"309
+[v lcd_setmode@param param `uc  1 a 1 11 ]
+"311
+} 0
+"314
+[v _lcd_putc lcd_putc `(v  1 e 0 0 ]
+{
+[v lcd_putc@data data `uc  1 a 1 wreg ]
+[v lcd_putc@data data `uc  1 a 1 wreg ]
+"317
+[v lcd_putc@data data `uc  1 a 1 10 ]
+"324
+} 0
+"284
+[v _lcd_goto lcd_goto `(v  1 e 0 0 ]
+{
+[v lcd_goto@line line `uc  1 a 1 wreg ]
+[v lcd_goto@line line `uc  1 a 1 wreg ]
+[v lcd_goto@address address `uc  1 p 1 10 ]
+"287
+[v lcd_goto@line line `uc  1 a 1 12 ]
+"303
+} 0
+"166
+[v _lcd_config lcd_config `(v  1 s 0 lcd_config ]
+{
+[v lcd_config@param param `uc  1 a 1 wreg ]
+[v lcd_config@param param `uc  1 a 1 wreg ]
+"169
+[v lcd_config@param param `uc  1 a 1 10 ]
+"184
+} 0
+"196
+[v _lcd_clrscr lcd_clrscr `(v  1 e 0 0 ]
+{
+"208
+} 0
+"145
+[v _lcd_write lcd_write `(v  1 s 0 lcd_write ]
+{
+[v lcd_write@data data `uc  1 a 1 wreg ]
+[v lcd_write@data data `uc  1 a 1 wreg ]
+"152
+[v lcd_write@data data `uc  1 a 1 9 ]
+"163
+} 0
+"119
+[v _lcd_strobe lcd_strobe `(v  1 s 0 lcd_strobe ]
+{
+"124
+} 0
+"107
+[v _lcd_10us_delay lcd_10us_delay `(v  1 s 0 lcd_10us_delay ]
+{
+[v lcd_10us_delay@us us `VEul  1 p 4 0 ]
+"116
+} 0
+"136
+[v _lcd_low lcd_low `(v  1 s 0 lcd_low ]
+{
+[v lcd_low@data data `uc  1 a 1 wreg ]
+[v lcd_low@data data `uc  1 a 1 wreg ]
+"138
+[v lcd_low@data data `uc  1 a 1 1 ]
+"142
+} 0
+"127
+[v _lcd_high lcd_high `(v  1 s 0 lcd_high ]
+{
+[v lcd_high@data data `uc  1 a 1 wreg ]
+[v lcd_high@data data `uc  1 a 1 wreg ]
+"129
+[v lcd_high@data data `uc  1 a 1 1 ]
+"133
+} 0
+"34 D:\PROJECTS\VEDA\PIC Practice\PIC16F873A\main.c
+[v _gpio_init gpio_init `(v  1 e 0 0 ]
+{
+"38
+} 0
